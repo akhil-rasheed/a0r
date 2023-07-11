@@ -8,7 +8,7 @@ const RhodyWide = localFont({
   variable: "--font-rhody-wide",
 });
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <main className={RhodyWide.className}>
       <Component {...pageProps} />
