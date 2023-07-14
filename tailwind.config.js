@@ -25,7 +25,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      "rhody-wide": ["var(--font-rhody)"],
+      "space-mono": ["var(--font-space-mono)"],
+    },
   },
   plugins: [],
 };
