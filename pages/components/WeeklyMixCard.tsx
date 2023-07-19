@@ -4,8 +4,8 @@ type Props = {};
 
 const WeeklyMixCard = (props: Props) => {
   return (
-    <div className="font-space-mono my-2 w-80 h-1/2 rounded-sm border-[1px] border-black flex flex-col">
-      <div className="px-2 bg-[#FFAAC9] ">weekly mix</div>
+    <div className="font-space-mono my-2 w-2/6 h-full rounded-sm border-[1px] border-black flex flex-col">
+      <div className="px-2 bg-music-light ">weekly mix</div>
     </div>
   );
 };
